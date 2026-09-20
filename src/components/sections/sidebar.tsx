@@ -43,8 +43,7 @@ export function Sidebar() {
         </div>
 
         <p className="max-w-[230px] text-sm leading-[1.6] text-muted">
-          Wantapreneur — full-stack builder currently exploring machine
-          learning.
+          Full-stack builder currently exploring machine learning.
         </p>
 
         {/* Section tracker: marks the section currently in view */}

@@ -144,33 +144,44 @@ export default function CustomCursor() {
   return (
     <div className="pointer-events-none fixed inset-0 z-[120]" aria-hidden="true">
       <motion.div
-        data-cursor-layer="shell"
-        data-cursor-kind={kind}
-        style={{ x: springX, y: springY }}
-        animate={{
-          backgroundColor: shell.background,
-          borderColor: shell.border,
-          borderRadius: kind === "button" ? 11 : 999,
-          borderWidth: shell.borderWidth,
-          boxShadow: shell.boxShadow,
-          height: shell.height,
-          opacity: isVisible ? (kind === "disabled" ? 0.45 : 1) : 0,
-          scale: isVisible ? (isPressed ? 0.86 : 1) : 0.7,
-          width: shell.width,
+        style={{
+          x: springX,
+          y: springY,
         }}
-        transition={MOTION_TRANSITIONS.fast}
-        className="fixed left-0 top-0 -translate-x-1/2 -translate-y-1/2 border border-solid"
-      />
-      <motion.div
-        data-cursor-layer="dot"
-        style={{ x: springX, y: springY, backgroundColor: "var(--accent)" }}
-        animate={{
-          opacity: isVisible && kind !== "input" ? 1 : 0,
-          scale: isVisible ? (isPressed ? 0.7 : 1) : 0.6,
-        }}
-        transition={MOTION_TRANSITIONS.fast}
-        className="fixed left-0 top-0 size-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full shadow-[0_0_12px_rgba(184,134,91,0.5)]"
-      />
+        className="fixed left-0 top-0"
+      >
+        <div className="absolute -translate-x-1/2 -translate-y-1/2">
+          <motion.div
+            data-cursor-layer="shell"
+            data-cursor-kind={kind}
+            animate={{
+              backgroundColor: shell.background,
+              borderColor: shell.border,
+              borderRadius: kind === "button" ? 11 : 999,
+              borderWidth: shell.borderWidth,
+              boxShadow: shell.boxShadow,
+              height: shell.height,
+              opacity: isVisible ? (kind === "disabled" ? 0.45 : 1) : 0,
+              scale: isVisible ? (isPressed ? 0.86 : 1) : 0.7,
+              width: shell.width,
+            }}
+            transition={MOTION_TRANSITIONS.fast}
+            className="border border-solid"
+          />
+        </div>
+        <div className="absolute -translate-x-1/2 -translate-y-1/2">
+          <motion.div
+            data-cursor-layer="dot"
+            style={{ backgroundColor: "var(--accent)" }}
+            animate={{
+              opacity: isVisible && kind !== "input" ? 1 : 0,
+              scale: isVisible ? (isPressed ? 0.7 : 1) : 0.6,
+            }}
+            transition={MOTION_TRANSITIONS.fast}
+            className="size-1.5 rounded-full shadow-[0_0_12px_rgba(184,134,91,0.5)]"
+          />
+        </div>
+      </motion.div>
     </div>
   );
 }
