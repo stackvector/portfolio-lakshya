@@ -1,0 +1,907 @@
+Yep. I went through the reference site section-by-section. Its structure is essentially:
+
+**identity → positioning → proof/track record → selected work → capabilities/stack → contact**
+
+I’ve kept that **information architecture and content pattern**, but populated it with what is actually known about you rather than copying the other person’s personal claims. ([Om Pratap Dhaker Portfolio][1])
+
+Below is the handoff file I’d give to whoever is building your portfolio.
+
+# Portfolio Content Handoff — Lakshya Kumar
+
+## 01 — Identity
+
+**Name**
+
+Lakshya Kumar
+
+
+**Location**
+
+Chennai, India
+
+**Primary positioning**
+
+Learning developer working across software development and exploring machine learning.
+
+**Homepage headline**
+
+> Transforming ideas into practical software.
+
+**Short introduction**
+
+> A developer working across software development and currently exploring machine learning, with an interest in turning ideas into practical solutions.
+
+### Personality / positioning to communicate
+
+* Curious
+* Practical
+* Interested in understanding how things work
+* Enjoys solving problems and finding patterns
+* Comfortable working across different areas rather than specializing deeply in one narrow field
+* Still learning and experimenting rather than presenting himself as a highly established engineer
+* Interested in software development, AI/ML and building useful products
+
+Avoid making the site sound like:
+
+* "10x engineer"
+* "expert"
+* "industry veteran"
+* overly corporate founder language
+* a long personal autobiography
+
+The positioning should feel **young, technically curious and capable without pretending to have 10 years of experience.**
+
+---
+
+# 02 — Hero / Homepage
+
+
+
+### Main heading
+
+# Transforming ideas into practical software.
+
+### Supporting copy
+
+> A developer working across software development and currently exploring machine learning, with an interest in turning ideas into practical solutions.
+
+### Possible supporting keywords
+
+```text
+Curiosity
+Practical solutions
+Software development
+AI / ML
+Problem solving
+```
+
+### Primary actions
+
+**View selected work**
+
+**Discuss a project**
+
+For a student/developer portfolio, "Discuss a project" could alternatively become:
+
+**Let's build something**
+
+---
+
+# 03 — Proof / Snapshot
+
+The reference site uses a large-number proof section before its experience section. ([Om Pratap Dhaker Portfolio][1])
+
+For you, **don't invent numbers**.
+
+Instead, use factual snapshot cards such as:
+
+### Areas
+
+**Web Development**
+
+React · Next.js · JavaScript · TypeScript
+
+### Data & ML
+
+Python · Pandas · NumPy · Scikit-learn
+
+### App Development
+
+React Native · Expo
+
+### Backend / Data
+
+Supabase · PostgreSQL · SQL
+
+This gives the same visual purpose as the reference site's statistics without pretending you have production metrics you don't have.
+
+---
+
+# 04 — Track Record
+
+## Heading
+
+# Building software across web, mobile and data.
+
+### Supporting text
+
+> Projects shaped around practical problems, experimentation and learning through implementation.
+
+---
+
+## Project / Experience 01
+
+### Campus Compass
+
+**2026 — Present**
+
+**Campus navigation and information platform**
+
+**Status**
+
+Currently in development.
+
+### Context
+
+Campus Compass is a campus-focused platform designed to make navigating and finding useful information around SRMIST easier.
+
+### Work / Direction
+
+Building the application across mobile and web, with mapping, locations, search, routing and campus information as core parts of the product.
+
+### Technology
+
+```text
+React Native
+Expo
+Next.js
+Supabase
+PostgreSQL
+```
+
+### Repository
+
+[GitHub — Campus Compass](https://github.com/stackvector/Campus-Compass?utm_source=chatgpt.com)
+
+---
+
+# 05 — Selected Work
+
+This should follow the reference site's **Problem → Approach → Outcome → Stack** format. ([Om Pratap Dhaker Portfolio][1])
+
+That format is particularly good for your projects because it prevents the portfolio from becoming just:
+
+> "I made a thing using React."
+
+Instead, it communicates **why the project exists and what you actually built.**
+
+---
+
+## Project 01
+
+### Campus Compass
+
+**Campus Platform**
+
+**2026 — Present**
+
+### Problem
+
+Finding locations and navigating a large campus can be unnecessarily difficult, especially when information is spread across different sources.
+
+### Approach
+
+Building an interactive campus platform combining location data, search, mapping and walking routes into one interface.
+
+### Outcome
+
+An ongoing project aimed at making campus navigation and campus information easier to discover and use.
+
+### Stack
+
+```text
+React Native
+Expo
+Next.js
+Supabase
+PostgreSQL
+```
+
+### Link
+
+[View source on GitHub](https://github.com/stackvector/Campus-Compass?utm_source=chatgpt.com)
+
+---
+
+# Project 02
+
+### Madhubani Crafts
+
+**E-commerce**
+
+### Context
+
+A real client-facing e-commerce website built for Madhubani Crafts.
+
+### Approach
+
+Built the website around a straightforward shopping experience, with a modern frontend and deployment through Vercel.
+
+### Outcome
+
+A live website that can be used by the client to showcase and sell products online.
+
+### Stack
+
+```text
+React
+Next.js
+JavaScript
+Vercel
+```
+
+### Live
+
+[Madhubani Crafts — Live site](https://madhubani-crafts.vercel.app?utm_source=chatgpt.com)
+
+### Source
+
+[GitHub repository](https://github.com/avinya68/madhubani-crafts-?utm_source=chatgpt.com)
+
+---
+
+# Project 03
+
+### Formula One Lap Time Predictor
+
+**Machine Learning**
+
+### Context
+
+An AI/ML project focused on predicting Formula One lap times from racing-related data.
+
+### Approach
+
+Explored regression models and compared baseline and enhanced approaches using metrics including MAE and RMSE.
+
+### Outcome
+
+A practical ML project focused on understanding how racing variables can be used to estimate lap-time performance.
+
+### Stack
+
+```text
+Python
+Pandas
+NumPy
+Scikit-learn
+Machine Learning
+```
+
+### Source
+
+[GitHub repository](https://github.com/stackvector/Formula-One-Lap-Time-Predictor?utm_source=chatgpt.com)
+
+---
+
+# 06 — Additional Work / Experience
+
+You have participated in / worked around technical and entrepreneurial activities, but the portfolio should **only include things where there is enough factual information to write a proper entry**.
+
+Known portfolio-relevant item:
+
+### Founders Club
+
+**Technical / development involvement**
+
+Can be represented as an experience entry once the exact role, dates and concrete work you want public are established.
+
+---
+
+# 07 — Capabilities
+
+This is where I would borrow the **structure** of the reference site most heavily.
+
+The reference site presents each technology/tool as a capability card with:
+
+**Tool → what it's used for → specific capabilities underneath.** ([Om Pratap Dhaker Portfolio][1])
+
+For you:
+
+## A practical stack for building and experimenting.
+
+> A growing toolkit spanning software development, data analysis and machine learning.
+
+---
+
+### React
+
+Frontend development and interactive interfaces
+
+```text
+Component Development
+Interactive UI
+Frontend Architecture
+Responsive Interfaces
+```
+
+---
+
+### Next.js
+
+Modern web applications and full-stack interfaces
+
+```text
+React Applications
+Routing
+Server-side Features
+Web Deployment
+```
+
+---
+
+### React Native
+
+Cross-platform mobile development
+
+```text
+Mobile Interfaces
+Cross-platform Development
+Expo
+Application Prototyping
+```
+
+---
+
+### Python
+
+Data analysis and machine learning
+
+```text
+Data Processing
+Automation
+Machine Learning
+Experimentation
+```
+
+---
+
+### Pandas
+
+Data analysis and preparation
+
+```text
+Data Cleaning
+DataFrames
+Feature Preparation
+Exploratory Analysis
+```
+
+---
+
+### NumPy
+
+Numerical computing
+
+```text
+Arrays
+Numerical Operations
+Data Preparation
+Scientific Computing
+```
+
+---
+
+### Scikit-learn
+
+Machine learning experimentation
+
+```text
+Regression
+Classification
+Model Evaluation
+Feature Engineering
+```
+
+---
+
+### Supabase
+
+Backend and application data
+
+```text
+Authentication
+Database
+API Integration
+Application Data
+```
+
+---
+
+### PostgreSQL
+
+Relational data
+
+```text
+SQL
+Database Design
+Queries
+Structured Data
+```
+
+---
+
+### Git / GitHub
+
+Source control and project collaboration
+
+```text
+Version Control
+Repositories
+Branches
+Commits
+Pull Requests
+```
+
+---
+
+### Vercel
+
+Web deployment and hosting
+
+```text
+Deployment
+Production Hosting
+Preview Deployments
+Web Applications
+```
+
+**Important:** Vercel and GitHub should absolutely be included because you actually use them. The reference site's capability section similarly treats deployment/source-control tools as part of the person's technical toolkit. ([Om Pratap Dhaker Portfolio][1])
+
+---
+
+### Figma
+
+Only include this if you're comfortable publicly claiming it as a tool you work with.
+
+Potential role:
+
+```text
+UI Design
+Prototyping
+Design Exploration
+Developer Handoff
+```
+
+I would **not** give it the same prominence as React/Python unless you actually use it regularly.
+
+---
+
+# 08 — Skills / Technology Overview
+
+A compact version for another section:
+
+### Development
+
+```text
+React
+Next.js
+JavaScript
+TypeScript
+React Native
+Expo
+```
+
+### Data / ML
+
+```text
+Python
+Pandas
+NumPy
+Scikit-learn
+```
+
+### Backend / Database
+
+```text
+Supabase
+PostgreSQL
+SQL
+```
+
+### Tools
+
+```text
+Git
+GitHub
+Vercel
+```
+
+---
+
+# 09 — Interests
+
+A small section can establish the breadth that is important to your identity:
+
+```text
+Web Development
+App Development
+Artificial Intelligence / Machine Learning
+Data Analysis
+Product Building
+Problem Solving
+```
+
+You can also subtly communicate the "curious generalist" aspect without literally saying *I don't have depth*.
+
+Something like:
+
+> I like working across disciplines — understanding a problem, learning what I need, and building a practical solution.
+
+That is much stronger for a portfolio.
+
+---
+
+# 10 — Contact Section
+
+The reference site finishes with a focused contact section rather than a generic "Contact Me." ([Om Pratap Dhaker Portfolio][1])
+
+For you:
+
+# Have an idea worth building?
+
+> If you're working on an interesting problem, project or product, I'd be happy to hear about it.
+
+### Form
+
+```text
+Name
+Email
+Project / Organization (optional)
+Project Type (optional)
+Brief
+```
+
+Button:
+
+**Let's talk**
+
+Alternative:
+
+**Send message**
+
+---
+
+# 11 — Footer
+
+### Lakshya Kumar
+
+**Wantapreneur**
+
+```text
+GitHub
+LinkedIn
+Email
+```
+
+Plus:
+
+```text
+© 2026 Lakshya Kumar
+```
+
+---
+
+# 12 — UI / Information Architecture Handoff
+
+This is the part I would specifically tell the developer to take from the reference site.
+
+## Overall structure
+
+```text
+┌──────────────────────────────────────┐
+│ Logo / Name                 Dark/Light│
+├──────────────────────────────────────┤
+│                                      │
+│ Small label                          │
+│                                      │
+│ HUGE HERO HEADLINE                   │
+│                                      │
+│ Short positioning statement           │
+│                                      │
+│ [Selected Work] [Contact]            │
+│                                      │
+├──────────────────────────────────────┤
+│ Small capability / identity tags     │
+├──────────────────────────────────────┤
+│                                      │
+│ Snapshot / proof                     │
+│                                      │
+├──────────────────────────────────────┤
+│                                      │
+│ TRACK RECORD                         │
+│                                      │
+│ Timeline / experience cards          │
+│                                      │
+├──────────────────────────────────────┤
+│                                      │
+│ SELECTED WORK                        │
+│                                      │
+│ Project                              │
+│ Problem                              │
+│ Approach                             │
+│ Outcome                              │
+│ Stack                                │
+│                                      │
+│ Project                              │
+│ ...                                  │
+│                                      │
+├──────────────────────────────────────┤
+│                                      │
+│ CAPABILITIES                         │
+│                                      │
+│ Tool cards                           │
+│ Tool description                     │
+│ Capability tags                      │
+│                                      │
+├──────────────────────────────────────┤
+│                                      │
+│ CONTACT                              │
+│                                      │
+│ Form                                  │
+│                                      │
+├──────────────────────────────────────┤
+│ FOOTER                               │
+└──────────────────────────────────────┘
+```
+
+---
+
+# 13 — Visual Direction
+
+Based on the reference, but adapted to your existing preferences:
+
+### Overall feeling
+
+**Premium + quiet + modern + technical**
+
+Not:
+
+* neon cyberpunk
+* terminal aesthetic
+* excessive gradients
+* "AI startup" cliché
+* huge collection of floating cards
+* overly colorful dashboard
+
+### Typography
+
+Use:
+
+* very large editorial hero typography
+* small uppercase section labels
+* restrained body text
+* strong hierarchy between headings and supporting text
+
+### Layout
+
+Use:
+
+* generous whitespace
+* strong horizontal sections
+* thin borders/dividers
+* asymmetric layouts where appropriate
+* large project titles
+* compact metadata
+* subtle hover interactions
+
+### Cards
+
+Don't make every section a giant rounded card.
+
+Prefer:
+
+```text
+──────────────
+PROJECT
+
+Title
+
+Problem
+...
+
+Approach
+...
+
+Outcome
+...
+
+React · Next.js · Supabase
+──────────────
+```
+
+This is closer to the **editorial/product-engineering feel** of the reference.
+
+### Motion
+
+Keep it subtle:
+
+* section reveal
+* text movement
+* hover transitions
+* slight card/image movement
+* smooth navigation
+
+No excessive particle effects.
+
+---
+
+# 14 — Theme
+
+Since you've specifically wanted **both light and dark modes**, the handoff should say:
+
+### Light mode
+
+Premium warm/editorial palette.
+
+Potential direction:
+
+```text
+Ivory / cream
+Dark brown / charcoal text
+Muted earth accent
+Soft borders
+```
+
+### Dark mode
+
+```text
+Deep charcoal / near-black
+Warm off-white text
+Muted earth accent
+Subtle borders
+```
+
+The accent should remain restrained rather than turning into neon.
+
+---
+
+# 15 — Navigation
+
+Keep it extremely simple.
+
+```text
+LAKSHYA KUMAR / WANTAPRENEUR
+
+Work
+Capabilities
+About
+Contact
+
+[Light / Dark]
+```
+
+On mobile:
+
+```text
+Logo                 ☰
+```
+
+---
+
+# 16 — Things NOT to Put on the Site
+
+This is important because the reference site has a much more experienced founder/product-engineer profile.
+
+Don't copy its:
+
+* years of experience claims
+* number of launches
+* team-lead numbers
+* revenue numbers
+* founder titles that don't apply to you
+* "production engineer" positioning
+* client/enterprise claims you can't substantiate
+* technology claims simply because they appear on the reference site
+
+Likewise, don't turn your portfolio into a giant résumé.
+
+Your strongest narrative is:
+
+> **Curious developer → learns through building → works across software/data/ML → turns ideas into practical projects.**
+
+That is coherent with the projects and skills you actually have.
+
+---
+
+# 17 — Final Content Hierarchy
+
+If I were handing the entire thing to a frontend developer, this is the exact hierarchy I'd give them:
+
+```text
+LAKSHYA KUMAR
+Wantapreneur
+
+Transforming ideas into practical software.
+
+A developer working across software development
+and currently exploring machine learning, with an
+interest in turning ideas into practical solutions.
+
+[View Selected Work]
+[Let's Talk]
+
+
+AREAS
+
+Web Development
+AI / ML
+App Development
+Data Analysis
+
+
+TRACK RECORD
+
+Building software across web, mobile and data.
+
+Campus Compass
+2026 — Present
+Campus navigation / information platform
+React Native · Expo · Next.js · Supabase · PostgreSQL
+
+
+SELECTED WORK
+
+Campus Compass
+Madhubani Crafts
+Formula One Lap Time Predictor
+
+
+CAPABILITIES
+
+React
+Next.js
+React Native
+Expo
+Python
+Pandas
+NumPy
+Scikit-learn
+Supabase
+PostgreSQL
+SQL
+Git
+GitHub
+Vercel
+
+
+INTERESTS
+
+Web Development
+AI / ML
+App Development
+Data
+Product Building
+Problem Solving
+
+
+CONTACT
+
+Have an idea worth building?
+
+If you're working on an interesting problem,
+project or product, I'd be happy to hear about it.
+
+
+GitHub
+LinkedIn
+Email
+
+© 2026 Lakshya Kumar
+```
+
+**One distinction:** I used the reference site's *structure, hierarchy and content model*, but not its exact copy. The reference is clearly presenting Om's own professional history and claims, so reproducing those verbatim as your own would create misleading portfolio content. ([Om Pratap Dhaker Portfolio][1])
+
+This gives you essentially the **same kind of premium product-engineer portfolio architecture**, but with your actual profile, projects, stack and current level.
+
+[1]: https://opd.noxsoft.net/ "Om Pratap Dhaker | Co-Founder @ NoxSoft"

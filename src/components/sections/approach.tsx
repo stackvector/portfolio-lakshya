@@ -19,7 +19,7 @@ const APPROACH = [
   {
     num: "03",
     title: "Ship for real users",
-    desc: "Madhubani Crafts was built for an actual client, not a tutorial. Real constraints and real feedback change what you build and how you prioritise it.",
+    desc: "credBase was built to help students navigate credentials and career paths. Real constraints and real feedback change what you build and how you prioritise it.",
   },
   {
     num: "04",

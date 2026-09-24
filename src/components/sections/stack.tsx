@@ -3,44 +3,39 @@ import { SectionHead } from "@/components/ui/section-head";
 
 const STACK = [
   {
-    name: "Next.js",
-    desc: "React framework for production apps and static sites",
-    chips: ["App Router", "Server Components", "Static Generation"],
-  },
-  {
-    name: "React",
-    desc: "Component-driven interfaces on web and mobile",
-    chips: ["Hooks", "Component State", "React Native"],
-  },
-  {
-    name: "TypeScript",
-    desc: "Type-safe application code across frontend and tooling",
-    chips: ["Typed Components", "Interfaces", "Strict Mode"],
-  },
-  {
-    name: "Supabase",
-    desc: "Postgres database, auth, and storage as an app backend",
-    chips: ["PostgreSQL", "Auth", "Database Queries"],
-  },
-  {
     name: "Python",
-    desc: "Data analysis and machine learning experiments",
-    chips: ["Pandas", "NumPy", "Scikit-learn"],
+    desc: "Backend development, data analysis, and web scraping",
+    chips: ["FastAPI", "Flask", "BeautifulSoup", "Uvicorn"],
+  },
+  {
+    name: "SQLite / SQL",
+    desc: "Lightweight relational database for application data",
+    chips: ["FTS5 Full-text Search", "Schema Design", "sqlite3"],
+  },
+  {
+    name: "Pandas / NumPy",
+    desc: "Data manipulation, analysis, and numerical computing",
+    chips: ["DataFrames", "Feature Engineering", "Exploratory Analysis"],
   },
   {
     name: "GitHub",
     desc: "Source control and collaboration on every project",
-    chips: ["Branching", "Pull Requests", "Issue Tracking"],
+    chips: ["Branching", "Pull Requests", "Version Control"],
   },
   {
-    name: "Vercel",
-    desc: "Deployment and hosting for Next.js projects",
-    chips: ["Next.js Deployments", "Preview Deployments"],
+    name: "HTML / CSS / JS",
+    desc: "Frontend interfaces built from scratch, no framework",
+    chips: ["Tailwind CSS", "Vanilla JS", "Responsive Design"],
   },
   {
-    name: "Git",
-    desc: "Version control and history management day to day",
-    chips: ["Branching", "Rebasing", "Conflict Resolution"],
+    name: "Render / Vercel",
+    desc: "Deployment and production hosting for Python apps",
+    chips: ["Uvicorn", "Serverless", "Cloud Hosting"],
+  },
+  {
+    name: "Folium / Leaflet",
+    desc: "Interactive maps and geospatial data visualisation",
+    chips: ["OpenStreetMap", "CartoDB", "Satellite Imagery"],
   },
 ];
 

@@ -40,20 +40,22 @@ function ProjectLink({ href, children }: { href: string; children: React.ReactNo
 
 const MINOR_PROJECTS = [
   {
-    title: "Madhubani Crafts",
-    sub: "Traditional art, brought online.",
-    desc: "E-commerce site built for a real client to showcase and sell Madhubani crafts, with a focus on clarity and a simple shopping experience.",
-    stack: ["React", "Next.js", "JavaScript"],
+    title: "Campus Compass",
+    sub: "A better way to navigate campus.",
+    desc: "A campus-focused platform bringing interactive locations, routing, and useful campus information together into one connected experience.",
+    stack: ["Python", "Flask", "SQLite", "Folium", "Leaflet"],
     links: [
-      { href: "https://madhubani-crafts.vercel.app/", label: "live" },
-      { href: "https://github.com/avinya68/madhubani-crafts-", label: "source" },
+      {
+        href: "https://github.com/stackvector/Campus-Compass",
+        label: "source",
+      },
     ],
   },
   {
     title: "F1 Lap Time Predictor",
     sub: "Exploring what shapes a lap time.",
     desc: "ML project using Formula One data — data prep, feature engineering, model training, and model comparison using MAE and RMSE.",
-    stack: ["Python", "Pandas", "Scikit-learn"],
+    stack: ["Python", "Pandas", "NumPy", "Scikit-learn"],
     links: [
       {
         href: "https://github.com/stackvector/Formula-One-Lap-Time-Predictor",
@@ -75,17 +77,22 @@ export function Work() {
           <span className="mb-[18px] inline-block border border-accent px-2.5 py-[3px] font-mono text-xs text-accent">
             <span className="text-[9px]">●</span> in development
           </span>
-          <h3 className="mb-2 text-[22px] font-semibold sm:text-[26px]">Campus Compass</h3>
-          <p className="mb-4 text-sm text-accent">A better way to navigate campus.</p>
+          <h3 className="mb-2 text-[22px] font-semibold sm:text-[26px]">credBase</h3>
+          <p className="mb-4 text-sm text-muted">Build a better professional profile.</p>
           <p className="mb-[22px] max-w-[560px] text-[14.5px] leading-[1.7] text-muted">
-            A campus-focused platform bringing interactive locations, routing,
-            and useful campus information together into one connected
-            experience.
+            An AI-powered platform helping students cut through the confusion of courses,
+            certifications, and career paths. Discover relevant credentials, understand the
+            skills they build, and find learning opportunities that strengthen your
+            professional profile.
           </p>
-          <div className="flex flex-wrap gap-2.5">
-            {["React Native", "Expo", "Next.js", "Supabase", "PostgreSQL"].map((tech) => (
+          <div className="mb-[22px] flex flex-wrap gap-2.5">
+            {["FastAPI", "SQLite", "Vanilla JS", "Render"].map((tech) => (
               <StackTag key={tech}>{tech}</StackTag>
             ))}
+          </div>
+          <div className="flex gap-4">
+            <ProjectLink href="https://credbase.vercel.app">live</ProjectLink>
+            <ProjectLink href="https://github.com/stackvector/credBase">source</ProjectLink>
           </div>
         </div>
       </Reveal>
@@ -94,9 +101,9 @@ export function Work() {
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
         {MINOR_PROJECTS.map((project, i) => (
           <Reveal key={project.title} delay={i * 0.08}>
-            <div className="h-full border border-hair p-6 transition-all duration-300 hover:-translate-y-[3px] hover:border-accent">
+            <div className="h-full border border-hair bg-panel p-6 transition-all duration-300 hover:-translate-y-[3px] hover:border-accent">
               <h3 className="mb-1.5 text-[19px] font-semibold">{project.title}</h3>
-              <p className="mb-3 text-[13px] text-accent">{project.sub}</p>
+              <p className="mb-3 text-[13px] text-muted">{project.sub}</p>
               <p className="mb-4 text-[13.5px] leading-[1.65] text-muted">{project.desc}</p>
               <div className="mb-4 flex flex-wrap gap-2">
                 {project.stack.map((tech) => (
